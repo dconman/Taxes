@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class Form1 : Form
+    public partial class WelcomePage : Form
     {
-        public Form1()
+        public WelcomePage()
         {
             InitializeComponent();
+        }
+
+        private void Continue_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
