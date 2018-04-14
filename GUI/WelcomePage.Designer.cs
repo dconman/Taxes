@@ -40,6 +40,7 @@
             this.Continue.Text = "Continue";
             this.Continue.UseVisualStyleBackColor = true;
             this.Continue.Click += new System.EventHandler(this.Continue_Click);
+
             // 
             // WelcomePage
             // 

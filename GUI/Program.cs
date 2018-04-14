@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PdfWriter;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,6 +15,9 @@ namespace GUI
         [STAThread]
         static void Main()
         {
+
+            new PdfWriter.PdfWriter();
+            return;
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new WelcomePage());
